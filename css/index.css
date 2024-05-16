@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #682a41;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -35,13 +35,27 @@ nav ul li a {
     text-decoration: none;
 }
 
+.full {
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
 main {
     flex: 1; /* Ocupa todo o espaço restante */
-    padding: 20px;
+    padding: 29px;
+    margin: 53px;
+    background-color: #C0FCF9;
+    border: none;
+    border-radius: 8px;
+}
+
+main h2 {
+    text-align: center;
 }
 
 footer {
-    background-color: #333;
+    background-color: #887178;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -65,14 +79,15 @@ form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     box-sizing: border-box;
 }
 
 form button {
-    background-color: #333;
+    background-color: #682A41;
     color: #fff;
+    font-weight: bolder;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;

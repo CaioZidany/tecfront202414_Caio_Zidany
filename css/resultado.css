@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #682a41;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -35,12 +35,36 @@ nav ul li a {
     text-decoration: none;
 }
 
+.fullResuldado {
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
 main {
-    padding: 20px;
+    flex: 1;
+    padding: 86px;
+    margin: 64px;
+    background-color: #C0FCF9;
+    border: none;
+    border-radius: 8px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main hr {
+    height:2px;
+    border: none;
+    border-radius: 8px;
+    border-width:0;
+    color: #0059A3;
+    background-color:#0059A3;
 }
 
 footer {
-    background-color: #333;
+    background-color: #887178;
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -80,8 +104,8 @@ form button {
 
 /* Estilos do resultado */
 .resultado {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 358px;
+    margin: 30px auto;
 }
 
 .resultado p {
